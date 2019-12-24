@@ -51,7 +51,7 @@ TEST(Cord, multipleBlocks) {
     Cord cord(128);
 
     std::string buf;
-    for (int i = 0; i < 100; i++) {
+    for (int i = 0; i < 5000; i++) {  // change 100 to 5000
         buf.append("Hello World!");
     }
 
